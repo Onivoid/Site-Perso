@@ -1,5 +1,4 @@
 header{
-    background: url('/_nuxt/assets/img/apexMap.jpg');
     height: calc(900px - var(--navHeight-desktop));
     width: 100%;
 }

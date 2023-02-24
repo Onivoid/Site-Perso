@@ -52,4 +52,7 @@
     @import url('../assets/css/pages/index/desktop.css');
     @import url('../assets/css/pages/index/tablet.css');
     @import url('../assets/css/pages/index/mobile.css');
+    header{
+    background: url('../assets/img/apexMap.jpg');
+    }
 </style>

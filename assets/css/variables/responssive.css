@@ -1,0 +1,8 @@
+:root{
+    --minWidth-tablet: 768px;
+    --maxWidth-tablet: 1024px;
+    --minWidth-mobile: 320px;
+    --maxWidth-mobile: calc(var(--minWidth-tablet) - 1);
+    --navHeight-desktop: 100px;
+    --navHeight-other: 80px;
+}

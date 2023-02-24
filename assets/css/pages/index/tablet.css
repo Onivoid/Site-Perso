@@ -1,0 +1,10 @@
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+    .favorite{
+        padding: 50px var(--tablet-padding-x);
+    }
+    .favorite .favContainer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 25px;
+    }
+}

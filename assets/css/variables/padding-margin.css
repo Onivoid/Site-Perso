@@ -1,0 +1,6 @@
+:root{
+    --desktop-padding-x: calc((100vw - 1024px) / 2);
+    --tablet-padding-x: calc((100vw - 600px) / 2);
+    --mobile-padding-x: 0;
+    --mobile-padding-nav: 100px 0;
+}

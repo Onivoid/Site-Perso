@@ -1,0 +1,22 @@
+.navigation{
+    background-color: var(--black-color);
+}
+.navigation .left img{
+    animation: breatheShadow 1.8s ease-in-out infinite alternate-reverse;
+}
+.navigation .middle ul{
+    color: var(--white-color);
+}
+.navigation .right a{
+    background-color: var(--discord-color);
+    color: var(--white-color);
+}
+.navigation .right a span p.small{
+    font-size: var(--smallText-size);
+    font-weight: var(--text-weight);
+    color: var(--grey-color);
+}
+.navigation .right a span p.big{
+    font-size: var(--text-size);
+    font-weight: var(--title-weight);
+}

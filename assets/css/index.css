@@ -1,0 +1,28 @@
+/**
+*
+* @import FontAwesome 6.3.0
+*
+**/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
+/**
+*
+* @import CSS Variables
+*
+**/
+@import url('./variables/colors.css');
+@import url('./variables/fonts.css');
+@import url('./variables/padding-margin.css');
+@import url('./variables/responssive.css');
+/**
+*
+* @import Reset native CSS
+*
+**/
+@import url('reset.css');
+
+/**
+*
+* @import Keyframes
+*
+**/
+@import url('./animations/breathe.css');

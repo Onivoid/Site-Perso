@@ -1,0 +1,85 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+    main{
+        padding-top: var(--navHeight-other);
+    }
+    .navigation{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        height: var(--navHeight-other);
+        width: 100%;
+        z-index: 3;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    .mobileNavButton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mobileNavButton i{
+        font-size: var(--title-size);
+        color: var(--white-color);
+    }
+    .mobileNavContainer{
+        position: fixed;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        min-height: calc(100vh - var(--navHeight-other));
+        transition: all .6s ease-in-out;
+        transform: translateY(var(--navHeight-other)) translateX(-100vw);
+        z-index: 999;
+    }
+    .mobileNavContainer.isActive{
+        transform: translateY(var(--navHeight-other)) translateX(0);
+    }
+    .mobileNavContainer ul{
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        min-height: calc(100vh - var(--navHeight-other));
+        background-color: var(--primary-color);
+        color: var(--white-color);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: var(--mobile-padding-nav);
+    }
+    .navigation .left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navigation .left img{
+        height: var(--navHeight-other);
+        transition: all .2s ease-in-out;
+    }
+    .navigation .left img:hover{
+        transform: scale(1.1);
+    }
+    .navigation .middle{
+        display: none;
+    }
+    .navigation .right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navigation .right a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        padding: 10px 10px;
+    
+    }
+    .navigation .right a img{
+        height: 30px;
+    }
+    .navigation .right a span{
+        display: none;
+    }
+}

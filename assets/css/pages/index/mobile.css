@@ -1,0 +1,16 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+    .favorite{
+        align-items: center;
+        padding: 50px var(--tablet-padding-x);
+    }
+    .favorite .favContainer{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+    .favorite .favContainer .item img{
+        width: 70%;
+        max-width: 400px;
+        margin-bottom: 10px;
+    }
+}

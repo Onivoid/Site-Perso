@@ -1,0 +1,53 @@
+header{
+    background: url('/_nuxt/assets/img/apexMap.jpg');
+    height: calc(900px - var(--navHeight-desktop));
+    width: 100%;
+}
+
+header .headerContainer{
+    height: 100%;
+    width: 100%;
+    background: var(--header-gradient);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.favorite{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: var(--primary-color);
+    min-height: 450px;
+    padding: 50px var(--desktop-padding-x);
+}
+.favorite h1{
+    font-size: var(--title-size);
+    font-weight: var(--title-weight);
+    color: var(--white-color);
+    margin-bottom: 20px;
+}
+.favorite .favContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+}
+.favorite .favContainer .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.favorite .favContainer .item img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.favorite .favContainer .item .title{
+    font-size: var(--secondaryTitle-size);
+    color: var(--white-color);
+    font-weight: var(--title-weight);
+    margin-bottom: 5px;
+}
+.favorite .favContainer .item .type{
+    font-size: var(--text-size);
+    color: var(--grey-color);
+    font-weight: var(--text-weight);
+}

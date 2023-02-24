@@ -1,0 +1,10 @@
+:root{
+    --primary-color: #6F00FF;
+    --secondary-color: #470075;
+    --accent-color: #2ae094;
+    --black-color: #040016;
+    --white-color: #FFFFFF;
+    --grey-color: #dbdbdb;
+    --discord-color: #5865F2;
+    --header-gradient: radial-gradient(rgba(71, 0, 117, .9) 0%, rgba(4, 0, 22, .9) 50%)
+}

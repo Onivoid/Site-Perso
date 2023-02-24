@@ -20,7 +20,7 @@
     .mobileNavButton i{
         font-size: var(--title-size);
         color: var(--white-color);
-    }
+    } 
     .mobileNavContainer{
         position: fixed;
         top: 0;
